@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nConfigurar proyecto Mariscos Sol del Mar para producción\n\n- Añadir estructura completa React + TypeScript + Vite\n- Implementar componentes de la aplicación web del restaurante\n- Configurar build system y optimizaciones\n- Añadir configuraciones de despliegue para Vercel y Netlify\n- Actualizar .gitignore para excluir archivos sensibles\n- Crear plantilla .env.example para variables de entorno\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nLimpiar archivos obsoletos del proyecto\n\n- Remover archivos HTML antiguos\n- Remover documentación obsoleta\n- Mantener solo la estructura React moderna\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git commit -m \"$(cat <<''EOF''\nActualizar documentación con instrucciones de despliegue\n\n- Añadir guía completa de despliegue en Vercel y Netlify\n- Documentar configuración de desarrollo local\n- Incluir información de tecnologías y estructura del proyecto\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Mariscos Sol Del Mar - Modern Clone",
+  "description": "A modern, fast, and efficient React-based clone of the Mariscos Sol Del Mar restaurant website, built with TypeScript and Tailwind CSS for a beautiful user experience.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
